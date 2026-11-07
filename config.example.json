@@ -1,0 +1,62 @@
+{
+  "_comment": "Copy this file to config.json and edit it. config.json is git-ignored. Every value below is an example.",
+  "candidate": {
+    "name": "Your Name",
+    "location": "City, Country",
+    "email": "you@example.com",
+    "phone": "+00 000 000 000",
+    "github": "https://github.com/your-handle",
+    "linkedin": "https://linkedin.com/in/your-handle",
+    "master_cv": "cv/MASTER_CV_TEMPLATE.docx"
+  },
+  "search": {
+    "categories": "devops",
+    "keywords": "kubernetes terraform cloud",
+    "seniority": "mid,senior",
+    "city": "",
+    "remote_only": true,
+    "uop_only": true,
+    "hybrid_city": "",
+    "limit": 20
+  },
+  "apply": {
+    "default_queue_statuses": "cv-ready,found",
+    "recruitment_consent_only": true
+  },
+  "skills": {
+    "daily": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "Terragrunt",
+      "GitHub Actions",
+      "GitLab CI",
+      "Karpenter",
+      "Docker"
+    ],
+    "working": [
+      "Prometheus",
+      "Grafana",
+      "Loki",
+      "Thanos",
+      "Istio",
+      "CloudFormation",
+      "Azure DevOps",
+      "Jenkins",
+      "Ansible"
+    ],
+    "ai_assisted": [
+      "Python",
+      "Bash",
+      "Go"
+    ],
+    "forbidden_core": [
+      "Linkerd",
+      "Elasticsearch",
+      "ServiceNow",
+      "Jira"
+    ]
+  }
+}

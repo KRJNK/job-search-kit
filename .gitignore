@@ -1,0 +1,27 @@
+# Personal configuration — never commit it
+config.json
+
+# Generated CVs and application drafts
+cv/CV-*.docx
+cv/CV-*.pdf
+offers/*/CV-*.docx
+offers/*/CV-*.pdf
+offers/*/application-draft.md
+offers/*/tailoring-report.md
+
+# Office lock and temporary files
+~$*
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
